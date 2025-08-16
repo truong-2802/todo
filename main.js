@@ -34,7 +34,7 @@ todoForm.onsubmit = (e) => {
 
 function renderTasks() {
     if(!tasks.length){
-        taskList.innerHTML = `<li>Danh sach trong</li>`
+        taskList.innerHTML = `<li class = "list-0">Danh sach trong</li>`
         return;
     }
     // c2
@@ -87,6 +87,7 @@ function renderTasks() {
 
 
   // taskList.innerHTML = html;
+  // inputElenment.focus()
 }
 
 // c1
